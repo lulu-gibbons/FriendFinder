@@ -8,9 +8,10 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lacey G.",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "path": "^0.12.7"
   }

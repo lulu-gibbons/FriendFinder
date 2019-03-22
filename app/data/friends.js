@@ -1,7 +1,7 @@
 var friends = [
   {
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Michelangelo",
+  "photo":"https://clipart.wpblink.com/sites/default/files/wallpaper/turtle-clipart/101504/turtle-clipart-michelangelo-101504-7633651.jpg",
   "scores":[
       5,
       1,
@@ -16,8 +16,8 @@ var friends = [
     ]
   },
   {
-  "name":"That guy",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Leonardo",
+  "photo":"https://i.redd.it/aowbh0jy0bjz.jpg",
   "scores":[
       3,
       2,
@@ -32,8 +32,24 @@ var friends = [
     ]
   },
   {
-  "name":"That girl",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Donatello",
+  "photo":"https://static.comicvine.com/uploads/original/4/49448/5635228-donatello+2.jpg",
+  "scores":[
+      5,
+      5,
+      4,
+      2,
+      5,
+      4,
+      1,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+  "name":"Raphael",
+  "photo":"https://dumielauxepices.net/sites/default/files/turtle-clipart-raphael-809470-2721517.jpg",
   "scores":[
       5,
       5,

@@ -2,7 +2,7 @@ const bodyParser = require('body-parser'); //translates everything into the same
 const express = require('express');
 
 var app = express();
-var PORT = process.env.port || 5000;
+var PORT = process.env.port || 8080;
 
 //console.log(app);
 

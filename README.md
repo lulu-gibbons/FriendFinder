@@ -15,3 +15,9 @@ This app is powered by three **NPM packages**.
    * [Express](https://www.npmjs.com/package/express)
    * [Body-parser](https://www.npmjs.com/package/body-parser)
    * [Path](https://www.npmjs.com/package/path)
+
+
+**Video to working app:**
+ * Recieving a timeout error in Heroku so, until that is fixed, here is a video showing the app functions
+
+ [![](http://img.youtube.com/vi/SlLeRUL7kFY/0.jpg)](http://www.youtube.com/watch?v=SlLeRUL7kFY "Friend Finder App")

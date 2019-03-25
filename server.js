@@ -1,3 +1,4 @@
+const http = require('http');
 const bodyParser = require('body-parser'); //translates everything into the same language so back and front can easily communicate
 const express = require('express');
 

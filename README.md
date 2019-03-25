@@ -18,7 +18,7 @@ This app is powered by three **NPM packages**.
    
 ## HEROKU APP LINK
 
- **[Friend Finder](https://dashboard.heroku.com/apps/gibbons-friend-finder/settings)**
+ **[Friend Finder](https://gibbons-friend-finder.herokuapp.com/)**
 
 **Video to working app:**
 

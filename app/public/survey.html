@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>FriendFinder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -191,15 +192,12 @@
         width: "95%"
       }
     };
-
     for (var selector in config) {
       $(selector).chosen(config[selector]);
     }
-
     //Capture the form inputs on button click
     $("#submit").on("click", function(event) {
       event.preventDefault();
-
       //Validates the form on button click
       function validateForm() {
         var isValid = true;
@@ -208,7 +206,6 @@
             isValid = false;
           }
         });
-
         $(".chosen-select").each(function() {
           if ($(this).val() === "") { //if form is empty make form invalid (false)
             isValid = false;
@@ -216,7 +213,6 @@
         });
         return isValid;
       }
-
       //If form is valid....
       if (validateForm()) {
         //captures user's data and makes it an object to compare friends to utilizing jquery
@@ -236,7 +232,6 @@
             $("#q10").val()
           ]
         };
-
         //utilizing ajax, the data from the user is then posted to the friends.js api that was created
         //userData is the request from the user
         $.post("/api/friends", userData, function(data) {
